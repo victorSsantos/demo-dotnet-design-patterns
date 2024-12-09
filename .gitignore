@@ -1,0 +1,48 @@
+# Ignore o diretório de saída do build
+bin/
+obj/
+
+# Ignore o diretório de publicação
+publish/
+
+# Ignore arquivos de configuração do Visual Studio
+.vscode/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore logs, pacotes e outros arquivos transitórios
+*.log
+*.nupkg
+*.snupkg
+*.cache
+*.pdb
+*.mdb
+
+# Ignore arquivos gerados pelo sistema
+Thumbs.db
+*.DS_Store
+
+# Ignore pacotes instalados pelo NuGet
+packages/
+*.nuget
+
+# Ignore arquivos de configurações temporárias
+*.tmp
+*.ide.log
+
+# Ignore arquivos de configuração locais
+appsettings.Development.json
+
+# Ignore dependências locais e temporárias
+project.lock.json
+project.fragment.lock.json
+
+# Ignore arquivos gerados pelo Rider (JetBrains)
+.idea/
+*.idea/
+
+# Ignore arquivos de inicialização do Docker
+docker-compose.override.yml
